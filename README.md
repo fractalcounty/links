@@ -21,6 +21,5 @@ bun run build
 Locally preview production build:
 
 ```bash
-# bun
 bun run preview
 ```
