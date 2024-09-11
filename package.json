@@ -10,11 +10,12 @@
     "postinstall": "bunx nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.13.0",
-    "vue": "latest",
-    "vue-router": "latest",
     "@nuxt/fonts": "^0.7.2",
+    "@nuxt/image": "^1.8.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "daisyui": "^4.12.10"
+    "daisyui": "^4.12.10",
+    "nuxt": "^3.13.1",
+    "vue": "latest",
+    "vue-router": "latest"
   }
 }
