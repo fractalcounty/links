@@ -10,6 +10,7 @@ export default defineNuxtConfig({
       {
         name: 'Alte Haas Grotesk',
         provider: 'local',
+        styles: ['normal'],
         weights: ['400', '700'],
       },
     ],
