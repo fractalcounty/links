@@ -5,4 +5,13 @@ export default defineNuxtConfig({
   tailwindcss: {
     editorSupport: { autocompleteUtil: { as: 'tailwindClasses' } },
   },
+  fonts: {
+    families: [
+      {
+        name: 'Alte Haas Grotesk',
+        provider: 'local',
+        weights: ['400', '700'],
+      },
+    ],
+  },
 });
