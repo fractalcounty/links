@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   tailwindcss: {
+    editorSupport: { autocompleteUtil: { as: 'tailwindClasses' } },
     config: {
       plugins: [require('daisyui')],
       daisyui: {
