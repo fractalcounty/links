@@ -2,6 +2,9 @@
   "name": "links",
   "private": true,
   "type": "module",
+  "engines": {
+    "bun": "1.1.27"
+  },
   "scripts": {
     "build": "bunx nuxt build",
     "dev": "bunx nuxt dev",
