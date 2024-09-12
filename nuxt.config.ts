@@ -37,6 +37,7 @@ export default defineNuxtConfig({
   },
   seo: {
     redirectToCanonicalSiteUrl: true,
+    debug: true,
   },
   i18n: {
     baseUrl: 'https://fractalcounty.com',
@@ -61,5 +62,23 @@ export default defineNuxtConfig({
       cookieKey: 'fractalcounty_i18n_rdr',
       redirectOn: 'root',
     },
+  },
+  ogImage: {
+    fonts: [
+      {
+        name: 'Alte Haas Grotesk',
+        weight: '400',
+        path: '/AlteHaasGrotesk-Regular.woff',
+      },
+      {
+        name: 'Alte Haas Grotesk',
+        weight: '700',
+        path: '/AlteHaasGrotesk-Bold.woff',
+      },
+      {
+        name: 'M PLUS Rounded 1c',
+        weight: '700',
+      },
+    ],
   },
 });

@@ -1,5 +1,6 @@
 <script setup lang="ts">
   const { t } = useI18n();
+  const siteConfig = useSiteConfig();
 
   useHead({
     templateParams: {
@@ -7,7 +8,10 @@
     },
   });
 
-  const siteConfig = useSiteConfig();
+  defineOgImageComponent('MainOG', {
+    name: siteConfig.name,
+    title: t('title'),
+  });
 </script>
 
 <template>
