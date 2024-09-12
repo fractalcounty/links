@@ -5,7 +5,7 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Alte Haas Grotesk"', 'sans-serif'],
+        sans: ['"Alte Haas Grotesk"', '"M PLUS Rounded 1c"'],
       },
     },
   },
