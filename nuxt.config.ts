@@ -7,6 +7,9 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/seo',
     '@nuxtjs/i18n',
+    '@nuxt/eslint',
+    '@nuxt/icon',
+    '@tresjs/nuxt',
   ],
   tailwindcss: {
     editorSupport: { autocompleteUtil: { as: 'tailwindClasses' } },
@@ -37,7 +40,6 @@ export default defineNuxtConfig({
   },
   seo: {
     redirectToCanonicalSiteUrl: true,
-    debug: true,
   },
   i18n: {
     baseUrl: 'https://fractalcounty.com',
@@ -80,5 +82,8 @@ export default defineNuxtConfig({
         weight: '700',
       },
     ],
+  },
+  tres: {
+    glsl: true,
   },
 });
