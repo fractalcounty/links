@@ -38,6 +38,9 @@ export default defineNuxtConfig({
     name: 'FRACTALCOUNTY',
     indexable: true,
   },
+  nitro: {
+    preset: 'cloudflare_pages',
+  },
   seo: {
     redirectToCanonicalSiteUrl: true,
   },
