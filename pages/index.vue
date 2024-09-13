@@ -15,57 +15,74 @@
 </script>
 
 <template>
-  <main>
-    <SpaceScene class="z-[-1]" />
-    <div
-      class="h-screen flex flex-col items-center justify-center text-center overflow-hidden">
-      <header class="">
-        <h1
-          class="text-5xl sm:text-3xl gap-x-2 font-extrabold flex flex-wrap justify-center px-24">
-          <span class="animate-fractal">FRACTAL</span>
-          <span class="animate-county">COUNTY</span>
-        </h1>
-        <h2 class="text-xl sm:text-lg uppercase animate-title">
-          {{ t('title') }}
-        </h2>
-      </header>
+  <main
+    class="min-h-[200vh] h-screen flex flex-col items-center justify-center text-center">
+    <SpaceScene />
 
-      <nav class="my-6">
-        <ul class="flex flex-col gap-4 uppercase">
+    <header class="z-10">
+      <h1
+        class="text-5xl sm:text-3xl gap-x-2 font-extrabold flex flex-wrap justify-center px-24">
+        <span class="animate-fractal">FRACTAL</span>
+        <span class="animate-county">COUNTY</span>
+      </h1>
+      <h2 class="text-xl sm:text-lg uppercase animate-title">
+        {{ t('title') }}
+      </h2>
+    </header>
+
+    <nav class="my-6 z-10">
+      <ul class="flex flex-col gap-4 uppercase">
+        <li>
           <LinkButton
             destination="https://www.youtube.com/@fractalcounty"
             label="YouTube" />
+        </li>
+        <li>
           <LinkButton
             destination="https://laramieonline.bandcamp.com"
             label="Bandcamp" />
+        </li>
+        <li>
           <LinkButton
             destination="https://fractalcounty.newgrounds.com"
             label="Newgrounds" />
+        </li>
+        <li>
           <LinkButton
             destination="https://www.youtube.com/@fractalcountyarchives"
             label="Archives" />
-        </ul>
-      </nav>
+        </li>
+      </ul>
+    </nav>
 
-      <footer class="flex gap-8">
-        <LinkChip
-          name="Twitter"
-          url="https://x.com/fractalcounty"
-          icon-name="ri:twitter-line" />
-        <LinkChip
-          name="Bluesky"
-          url="https://bsky.app/profile/fractalcounty.com"
-          icon-name="ri:bluesky-line" />
-        <LinkChip
-          name="Instagram"
-          url="https://www.instagram.com/fractalcounty/"
-          icon-name="ri:instagram-line" />
-        <LinkChip
-          name="GitHub"
-          url="https://github.com/fractalcounty"
-          icon-name="ri:github-line" />
-      </footer>
-    </div>
+    <nav class="z-10">
+      <ul class="flex gap-8">
+        <li>
+          <LinkChip
+            name="Twitter"
+            url="https://x.com/fractalcounty"
+            icon-name="ri:twitter-line" />
+        </li>
+        <li>
+          <LinkChip
+            name="Bluesky"
+            url="https://bsky.app/profile/fractalcounty.com"
+            icon-name="ri:bluesky-line" />
+        </li>
+        <li>
+          <LinkChip
+            name="Instagram"
+            url="https://www.instagram.com/fractalcounty/"
+            icon-name="ri:instagram-line" />
+        </li>
+        <li>
+          <LinkChip
+            name="GitHub"
+            url="https://github.com/fractalcounty"
+            icon-name="ri:github-line" />
+        </li>
+      </ul>
+    </nav>
   </main>
 </template>
 
@@ -76,6 +93,10 @@
   }
   .btn {
     transition-duration: 0.15s !important;
+  }
+
+  main {
+    padding-bottom: 100vh;
   }
 
   @keyframes wiggle {
