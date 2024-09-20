@@ -22,6 +22,7 @@
       :position="[0, 0, 0]"
       :rotation="cameraRotation"
       :fov="75" />
+    <CameraControls v-bind="controlsState" make-default />
     <Suspense>
       <Levioso speed="4" floatFactor="0.2" rotationFactor="0.1">
         <AnimatedSprite
