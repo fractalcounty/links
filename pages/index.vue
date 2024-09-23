@@ -17,7 +17,7 @@
 <template>
   <main
     class="min-h-[200vh] h-screen flex flex-col items-center justify-center text-center">
-    <SpaceScene />
+    <OceanScene />
 
     <header class="z-10">
       <h1
