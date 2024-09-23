@@ -3,21 +3,23 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "bunx nuxt build",
-    "dev": "bunx nuxt dev",
-    "generate": "bunx nuxi generate",
-    "preview": "bunx nuxt preview",
-    "postinstall": "bunx nuxt prepare",
-    "lint": "bunx eslint .",
-    "lint:fix": "bunx eslint --fix ."
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxi generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "dependencies": {
     "@nuxtjs/i18n": "^8.5.3",
     "@nuxtjs/seo": "^2.0.0-rc.21",
+    "@nuxtjs/sitemap": "^6.1.0",
     "@tresjs/cientos": "^4.0.2",
     "@tresjs/nuxt": "^3.0.7",
     "daisyui": "^4.12.10",
-    "nuxt": "^3.13.1",
+    "nuxt": "^3.13.2",
+    "nuxt-og-image": "^3.0.2",
     "three": "^0.168.0",
     "vue": "latest",
     "vue-router": "latest"
