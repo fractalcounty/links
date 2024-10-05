@@ -39,7 +39,7 @@ export default defineNuxtConfig({
     ],
   },
   site: {
-    url: 'https://fractalcounty.com',
+    url: 'https://links.fractalcounty.com',
     name: 'FRACTALCOUNTY',
     indexable: true,
   },
@@ -47,7 +47,7 @@ export default defineNuxtConfig({
     redirectToCanonicalSiteUrl: true,
   },
   i18n: {
-    baseUrl: 'https://fractalcounty.com',
+    baseUrl: 'https://links.fractalcounty.com',
     lazy: true,
     langDir: 'locales',
     defaultLocale: 'en',
