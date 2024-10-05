@@ -33,6 +33,9 @@
     <nav class="my-6 z-10">
       <ul class="flex flex-col gap-4 uppercase">
         <li>
+          <LinkButton destination="https://fractalcounty.com" label="Blog" />
+        </li>
+        <li>
           <LinkButton
             destination="https://www.youtube.com/@fractalcounty"
             label="YouTube" />
@@ -46,11 +49,6 @@
           <LinkButton
             destination="https://fractalcounty.newgrounds.com"
             label="Newgrounds" />
-        </li>
-        <li>
-          <LinkButton
-            destination="https://www.youtube.com/@fractalcountyarchives"
-            label="Archives" />
         </li>
       </ul>
     </nav>
