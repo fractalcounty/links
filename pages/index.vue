@@ -42,7 +42,7 @@
         </li>
         <li>
           <LinkButton
-            destination="https://laramieonline.bandcamp.com"
+            destination="https://fractalcounty.bandcamp.com"
             label="Bandcamp" />
         </li>
         <li>
